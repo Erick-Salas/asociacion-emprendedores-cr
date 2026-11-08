@@ -140,3 +140,5 @@ node_modules/
 *.class
 out/
 .idea/
+config.properties
+target/
