@@ -1,0 +1,9 @@
+www.asociaciondeemprendedorescr.com {
+    tls internal
+    reverse_proxy localhost:3000
+}
+
+www.empleados.asociaciondeemprendedorescr.com {
+    tls internal
+    reverse_proxy localhost:3001
+}
